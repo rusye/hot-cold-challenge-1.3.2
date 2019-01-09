@@ -5,3 +5,10 @@ cache:
   - node_modules
 env:
 - CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: i3W7V7WNTJjwpHdV2SBQVQXIvIr8aO24sZYpi/NOjYlA+d89FnFVtejHyZKsKVQKBTnSKeWKtjluaPCZ+u1zU0VrwSnDpbYac/NuuHYHOk1UFSWpj257GI60ApsB45em+Mw8CysJG4RJ4uVFvePVGBO6maac0LGf9PcCRCYHvQamLl3y4TJOxRtlurhrJnFs5ANib5ShpKOsgcro21u+OKXulHgNzej3/WlIuTgXW1dDDXv+34aWO+ZoNWy6C9m+ablmsiH6N39QtI7PiptirZqE0P6Ne6F5aiEez1vr6odZW0J8RpxFV1CTTcK5hR2BJsjV5oBCyhKe6jqZ7IQs9ZuIiJPCGUMge3/DuYQ4/q3VCFRy7B/18b4y7cLjsTL3bI+Yug14/NzqfDdFsn4GfggyBolEt9lT/tFg2WjgCv1LmBET5dW7T70KhaHG3BXOLk+EsHQYCRDvhO7fJnS0PeaD9Kg/9XyvrwOiM1c6ryQzLYb/DAmJwTW8absSLwE8xGcPxvmxCSbav/Xw7c3G9oqWT4b7cJ+1DMIhq1DFsLmpw8PpPNo5+iv0ueAWLpbqvhnqS8v8DnSYTpnDHJFVtdvqcie8NPWkxdxYs5LlMKgVgu7DhT6UDlEAaTuR6VXEzUFZs7LsAlofbk6Uxc/aYgZrU/zosaW5CuctLYooMOY=
+  app: hot-cold-challenge-1.3.2
+  on:
+    repo: rusye/hot-cold-challenge-1.3.2
