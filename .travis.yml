@@ -9,6 +9,6 @@ deploy:
   provider: heroku
   api_key:
     secure: GcCtSFHo+71WVbXQyXEuMiqazDRana/8R/Jtx3nO2oWTwM1m1WwG8UYjNAK5Ns8JfmLsD0koNTWyXWWDhxPQWOe1oDZLyQyfFc/kMCM06PHFobX6cL6iGv+oCl3UNazmIw2kNsSR5MLA/zjtHnVcq1vA+NNSx6152C6XwXpECsnH98wSoaEEjKAbdI00aI65joCehccQGsgWl4/9KRMWV0qNtRMt5g8sUnSF2jkc/c75+nqKgIxVUfBTwekq8Vtf5F9jBjY+G/3/XZ5kh8BaJlUuAAv29lV92zPlFIZl6P8bbv5OAVY0Ig5Su0KRTIKY6XhX9/wlKpiumio3/8soqs97DEZJpGe6Q65HjKCfOcJx6gLck7pOO3qdPHQykLkiRItZiV5M3/HzxqorHvywZwfpXGELKBlNqNt9GoxdmSmjGQGmrNLYusiASVb9oD6fzn8gDwWEgepBNPWDdc9E9pXi744OFDmsCrSchTTISC5u/jQYI520ti6Ug0We0DxwVU2UXqSkInuSQRXtAczlI1vt3FPfrPVW7YBz3L3DDTQeaTNF0jzcrdOqZptdkjh2Zuek912Xh9dLLLB9p+2J+WRSfjvur77jdyexkZGs7PwQ+GyHCfm4hflQeHYQVYc8Q2+8vdjteFsj2LFdA7Tp06C2ADbR8R6Yl/9T5AXngxI=
-  app: hot-cold-challenge-1.3.2
+  app: shielded-stream-58692
   on:
     repo: rusye/hot-cold-challenge-1.3.2
